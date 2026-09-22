@@ -2,7 +2,7 @@ import onnx
 from onnx import helper
 
 # Загружаем модель ONNX
-model = onnx.load("/Users/alexey/open_mouth/build/Resources/best.onnx")
+model = onnx.load("Resources/best.onnx")  # запускать из корня репозитория
 
 # Получаем информацию о графе модели
 graph = model.graph
@@ -17,4 +17,4 @@ print("Output names:")
 for output in graph.output:
     print(output.name)
 
-# yolo task=detect mode=predict model=/Users/alexey/open_mouth/build/Resources/best.pt source=/Users/alexey/open_mouth/build/Resources/face.jpg show=True imgsz=640 name=yolov8n_v8_50e_infer1280 show_labels=False
+# yolo task=detect mode=predict model=Resources/best.pt source=Resources/face.jpg show=True imgsz=640 name=yolov8n_v8_50e_infer1280 show_labels=False
