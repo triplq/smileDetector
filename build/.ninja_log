@@ -1,5 +1,0 @@
-# ninja log v6
-2	117	1758561062080114918	/Users/alexey/open_mouth/build/cmake_install.cmake	47c3dfedd15d08a3
-2	117	1758561062081000172	build.ninja	47c3dfedd15d08a3
-6	1310	1758307970226366534	CMakeFiles/OpenGame.dir/main.cpp.o	5e2b851c0b8429e5
-1311	1444	1758307971530735849	OpenGame	572ae150ae173faa

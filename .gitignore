@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Qt Creator
+CMakeLists.txt.user*
+
+# Каталоги сборки
+build/
+build-*/
