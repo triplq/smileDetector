@@ -54,8 +54,8 @@ smileDetector — детектор рта. Программа берёт вид�
 
 ## Сборка и запуск
 
-	git clone https://github.com/triplq/dinoFace.git
-	cd dinoFace
+	git clone https://github.com/triplq/smileDetector.git
+	cd smileDetector
 
 	mkdir build && cd build
 	cmake ..
